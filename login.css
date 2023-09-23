@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@200;400&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: url(wallpaperflare.com_wallpaper\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    background-position: center;
+    justify-content: center;
+    display: flex;         
+}
+#titulo{
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+.tela-login{
+    flex-wrap: nowrap;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .2);
+    text-align: center;
+    color: white;
+    background-color: transparent;
+    border: 1px white solid;
+    border-radius: 10px;
+    width: 380px;
+    height: 400px;
+    backdrop-filter: blur(15px)
+}
+
+input{
+    border-radius: 30px;
+    padding: 10px 50px;
+    border-color: white;
+    color: white;
+    background-color: transparent;
+    border: 1px white solid;
+    
+    
+     
+}
+.campo input::placeholder{
+      color: white;
+}
+
+.campo{
+    margin-bottom: 25px;
+     
+}
+
+.ajuda{
+    padding-bottom: 10px;
+    text-align: center;
+    padding-left: 18px;
+    font-weight: 300px;
+    padding-right: 18px;
+    font-size: 15px;
+    font-weight: 400;       
+}
+
+.ajuda > a{
+    text-decoration: none;
+    color: white;
+    padding-left: 30px;
+    
+    
+}
+.ajuda > a:hover{
+    text-decoration: underline;
+}
+.ajuda > input{
+    text-align: left;
+    cursor: pointer;
+
+}
+button{
+    margin-bottom: 15px;
+    width: 68%;
+    height: 40px;
+    border-radius: 20px;
+    border-style: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+button:active{
+    background-color: lightgray;
+    
+}
+
+
+#cadastro{
+    display: flex;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+}
+
+#cadastro > p{
+    padding-left: 40px;
+    font-weight: 400;
+}
+#cadastro > a{
+    padding-left: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+#cadastro > a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+  
+
+
+    
+
