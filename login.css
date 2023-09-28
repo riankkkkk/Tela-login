@@ -15,7 +15,7 @@ body{
     min-height: 100vh;
     width: 100%;
     height: 100%;
-    align-items: center;
+    align-items: center;     
     background-position: center;
     justify-content: center;
     display: flex;         
@@ -35,6 +35,7 @@ body{
     width: 380px;
     height: 400px;
     backdrop-filter: blur(15px)
+    
 }
 
 input{
